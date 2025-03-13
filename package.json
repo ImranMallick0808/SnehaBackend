@@ -1,13 +1,13 @@
 {
   "name": "sneha-academy-project",
   "version": "1.0.0",
-  "main": "backend/server.js",
+  "main": "backend/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
+    "start": "node backend/app.js",
+    "server": "nodemon backend/app.js",
     "client": "npm run dev --prefix ./frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run app\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
